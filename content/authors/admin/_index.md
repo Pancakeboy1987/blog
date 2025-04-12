@@ -92,11 +92,11 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: JavaScript
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: C++
         description: ''
         percent: 40
         icon: circle-stack
@@ -104,25 +104,25 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Youtube
         description: ''
         percent: 60
         icon: person-simple-walk
       - name: Cats
         description: ''
-        percent: 100
+        percent: 40
         icon: cat
-      - name: Photography
+      - name: Games
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: French
     percent: 75
-  - name: Portuguese
+  - name: Japanese
     percent: 25
 
 # Awards.
@@ -130,7 +130,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: Отсутствуют 
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Coursera
