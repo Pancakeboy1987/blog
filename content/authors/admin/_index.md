@@ -110,28 +110,7 @@ social:
     icon_pack: fab
     link: https://arxiv.org/user/ 
 
-# Experience
-experience:
-  - title: Стажер-разработчик
-    company: IT Компания "Вектор"
-    company_url: ''
-    company_logo: ''
-    area: "Москва, Россия"  # <--- ПРОВЕРЕНО
-    date_start: '2023-06-01'
-    date_end: '2023-08-31'
-    description: |
-      - Разработка нового модуля для веб-приложения.
-      - Исправление ошибок в существующем коде.
-      - Участие в командных митингах.
 
-  - title: Младший научный сотрудник
-    company: НИИ "Прогресс"
-    company_url: ''
-    company_logo: ''
-    area: "Санкт-Петербург, Россия" # <--- ПРОВЕРЕНО
-    date_start: '2022-01-15'
-    date_end: '2023-05-30'
-    description: Проведение исследований в области XYZ.
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
