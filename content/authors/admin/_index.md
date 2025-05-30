@@ -22,7 +22,8 @@ role: Студент
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Российский университет дружбы народов
-    url: https://www.rudn.ru/ # Добавил url сюда, если он относится к организации
+    url: https://www.rudn.ru/
+    area: "Москва, Россия" # <--- ДОБАВЛЕНО/ПРОВЕРЕНО
 
 # Short bio (displayed in user profile at end of posts)
 bio: Люблю программировать, информатику,английский и всякие технические штучки.
@@ -39,17 +40,17 @@ education:
     - course: Студент
       institution: РУДН
       year: 2024
-      area: "Москва, Россия" # Это поле вы добавили, что правильно
+      area: "Москва, Россия" # <--- ПРОВЕРЕНО
 
 # Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# ... (ваши навыки, здесь area обычно не нужна) ...
 skills:
   - name: Technical
     items:
       - name: JS
         description: ''
         percent: 70
-        icon: js # Изменил иконку на более подходящую для JS
+        icon: js 
         icon_pack: fab
       - name: Math
         description: ''
@@ -59,8 +60,8 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: python # Изменил иконку на python для Python
-        icon_pack: fab
+        icon: python 
+        icon_pack: fab	
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -82,16 +83,14 @@ skills:
         icon_pack: fab
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+# ... (ваши социальные ссылки) ...
 social:
-  - icon: etsy # Убедитесь, что это действительно иконка для eLibrary, возможно, стоит поискать более подходящую или использовать 'book'/'scroll'
+  - icon: etsy 
     icon_pack: fab
     link: https://www.elibrary.ru/defaultx.asp
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: graduation-cap 
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=cmlmUqoAAAAJ&hl=ru # Исправлена опечатка hhttps -> https
+    link: https://scholar.google.com/citations?user=cmlmUqoAAAAJ&hl=ru 
   - icon: github
     icon_pack: fab
     link: https://github.com/Pancakeboy1987
@@ -101,23 +100,23 @@ social:
   - icon: mendeley
     icon_pack: fab
     link: https://www.mendeley.com/search/
-  - icon: researchgate # Если нет ссылки, иконка может не отображаться или отображаться некорректно
+  - icon: researchgate 
     icon_pack: fab
-    link: "" # Явно указал пустую ссылку
-  - icon: gg # Аналогично
+    link: "" 
+  - icon: gg 
     icon_pack: fab
-    link: "" # Явно указал пустую ссылку
-  - icon: dev # Аналогично
+    link: "" 
+  - icon: dev 
     icon_pack: fab
-    link: https://arxiv.org/user/ # Если это ссылка на профиль, то все ок. Если просто на сайт, тоже.
+    link: https://arxiv.org/user/ 
 
-
+# Experience
 experience:
-  - title: Стажер-разработчик # Пример
-    company: IT Компания "Вектор" # Пример
+  - title: Стажер-разработчик
+    company: IT Компания "Вектор"
     company_url: ''
     company_logo: ''
-    area: "Москва, Россия"  # <--- ВАЖНОЕ ПОЛЕ 'area'
+    area: "Москва, Россия"  # <--- ПРОВЕРЕНО
     date_start: '2023-06-01'
     date_end: '2023-08-31'
     description: |
@@ -125,13 +124,13 @@ experience:
       - Исправление ошибок в существующем коде.
       - Участие в командных митингах.
 
-  - title: Младший научный сотрудник # Другой пример
+  - title: Младший научный сотрудник
     company: НИИ "Прогресс"
     company_url: ''
     company_logo: ''
-    area: "Санкт-Петербург, Россия" # <--- ВАЖНОЕ ПОЛЕ 'area'
+    area: "Санкт-Петербург, Россия" # <--- ПРОВЕРЕНО
     date_start: '2022-01-15'
-    date_end: '2023-05-30' # Если работа завершена
+    date_end: '2023-05-30'
     description: Проведение исследований в области XYZ.
 
 # Highlight the author in author lists? (true/false)
