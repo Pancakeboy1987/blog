@@ -39,6 +39,8 @@ education:
     - course: Студент
       institution: РУДН
       year: 2024
+      area: "Москва, Россия"
+      
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
