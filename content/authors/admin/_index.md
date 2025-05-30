@@ -22,7 +22,7 @@ role: Студент
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Российский университет дружбы народов
-    url: https://www.rudn.ru/
+  - url: https://www.rudn.ru/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Люблю программировать, информатику,английский и всякие технические штучки.
