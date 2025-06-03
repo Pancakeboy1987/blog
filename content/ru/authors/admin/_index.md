@@ -23,44 +23,42 @@ role: Студент
 organizations:
   - name: Российский университет дружбы народов
     url: https://www.rudn.ru/
-    area: "Москва, Россия" # <--- ДОБАВЛЕНО/ПРОВЕРЕНО
 
 # Short bio (displayed in user profile at end of posts)
-bio: Люблю программировать, информатику,английский и всякие технические штучки.
+bio: Мне нравится изучать программирование, информатику и всякие технические штучки.
 
 # Interests to show in About widget
 interests:
   - Программирование
-  - Английский
-  - Французский
+  - Linux
+  - Кибербезопасность
 
 # Education to show in About widget
 education:
   courses:
     - course: Студент
       institution: РУДН
-      year: 2024
-      area: "Москва, Россия" # <--- ПРОВЕРЕНО
+      year: 2023
 
 # Skills
-# ... (ваши навыки, здесь area обычно не нужна) ...
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Technical
     items:
-      - name: JS
+      - name: Python
         description: ''
         percent: 70
-        icon: js 
+        icon: python
         icon_pack: fab
       - name: Math
         description: ''
         percent: 90
         icon: chart-line
         icon_pack: fas
-      - name: Python
+      - name: Rust
         description: ''
         percent: 80
-        icon: python 
+        icon: rust
         icon_pack: fab	
   - name: Hobbies
     color: '#eeac02'
@@ -83,38 +81,40 @@ skills:
         icon_pack: fab
 
 # Social/Academic Networking
-# ... (ваши социальные ссылки) ...
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: etsy 
+  - icon: etsy
     icon_pack: fab
     link: https://www.elibrary.ru/defaultx.asp
-  - icon: graduation-cap 
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=cmlmUqoAAAAJ&hl=ru 
+    link: hhttps://scholar.google.com/citations?user=cmlmUqoAAAAJ&hl=ru
   - icon: github
     icon_pack: fab
-    link: https://github.com/Pancakeboy1987
+    link: https://github.com/DrNikiyProgrammingAccount
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0009-0003-8024-9907
+    link: https://orcid.org/0009-0003-8124-9907
   - icon: mendeley
     icon_pack: fab
     link: https://www.mendeley.com/search/
-  - icon: researchgate 
+  - icon: researchgate
     icon_pack: fab
-    link: "" 
-  - icon: gg 
+    link: https://www.researchgate.net/profile/Nikita-Andryushin
+  - icon: gg
     icon_pack: fab
-    link: "" 
-  - icon: dev 
+    link: https://independent.academia.edu/DRNIKIY
+  - icon: dev
     icon_pack: fab
-    link: https://arxiv.org/user/ 
-
-
+    link: https://arxiv.org/user/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+area: "main"
 ---
 
-Коровкин Никита Михайлович - студент российского университета дружбы народов. В его интересы входит программирование (Python, JS), Linux.
+Коровкин Никита Михайлович - студент российского университета дружбы народов. В его интересы входит программирование (C++, Java, Kotlin, Rust), Linux и кибербезопасность (в особенности криптография и стеганография). Работал над проектами, направленными на реабилитацию людей с ограниченными возможностями здоровья по зрению
 {style="text-align: justify;"}
